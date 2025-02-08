@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		D46B20DF2D558CFB00058D3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46B20D82D558CFB00058D3B /* Preview Assets.xcassets */; };
 		D46B20E02D558CFB00058D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46B20DA2D558CFB00058D3B /* Assets.xcassets */; };
-		D46B20E12D558CFB00058D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20DB2D558CFB00058D3B /* ContentView.swift */; };
+		D46B20E12D558CFB00058D3B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20DB2D558CFB00058D3B /* SearchView.swift */; };
 		D46B20E22D558CFB00058D3B /* GithubFollowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20DC2D558CFB00058D3B /* GithubFollowersApp.swift */; };
 		D46B20E32D558CFB00058D3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20DD2D558CFB00058D3B /* Item.swift */; };
 		D46B20E62D558D0000058D3B /* GithubFollowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20E42D558D0000058D3B /* GithubFollowersTests.swift */; };
 		D46B20EA2D558D0300058D3B /* GithubFollowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20E72D558D0300058D3B /* GithubFollowersUITests.swift */; };
 		D46B20EB2D558D0300058D3B /* GithubFollowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B20E82D558D0300058D3B /* GithubFollowersUITestsLaunchTests.swift */; };
+		D46B20F02D55A2C500058D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46B20EF2D55A2C500058D3B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +41,14 @@
 		D46B20C52D558CDC00058D3B /* GithubFollowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubFollowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46B20D82D558CFB00058D3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D46B20DA2D558CFB00058D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D46B20DB2D558CFB00058D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D46B20DB2D558CFB00058D3B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		D46B20DC2D558CFB00058D3B /* GithubFollowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollowersApp.swift; sourceTree = "<group>"; };
 		D46B20DD2D558CFB00058D3B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D46B20E42D558D0000058D3B /* GithubFollowersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollowersTests.swift; sourceTree = "<group>"; };
 		D46B20E72D558D0300058D3B /* GithubFollowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollowersUITests.swift; sourceTree = "<group>"; };
 		D46B20E82D558D0300058D3B /* GithubFollowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D46B20EE2D55A0FB00058D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D46B20EF2D55A2C500058D3B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +107,13 @@
 		D46B20DE2D558CFB00058D3B /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				D46B20EE2D55A0FB00058D3B /* Info.plist */,
 				D46B20D92D558CFB00058D3B /* Preview Content */,
 				D46B20DA2D558CFB00058D3B /* Assets.xcassets */,
-				D46B20DB2D558CFB00058D3B /* ContentView.swift */,
+				D46B20DB2D558CFB00058D3B /* SearchView.swift */,
 				D46B20DC2D558CFB00058D3B /* GithubFollowersApp.swift */,
 				D46B20DD2D558CFB00058D3B /* Item.swift */,
+				D46B20EF2D55A2C500058D3B /* LaunchScreen.storyboard */,
 			);
 			path = GithubFollowers;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46B20F02D55A2C500058D3B /* LaunchScreen.storyboard in Resources */,
 				D46B20DF2D558CFB00058D3B /* Preview Assets.xcassets in Resources */,
 				D46B20E02D558CFB00058D3B /* Assets.xcassets in Resources */,
 			);
@@ -267,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46B20E12D558CFB00058D3B /* ContentView.swift in Sources */,
+				D46B20E12D558CFB00058D3B /* SearchView.swift in Sources */,
 				D46B20E22D558CFB00058D3B /* GithubFollowersApp.swift in Sources */,
 				D46B20E32D558CFB00058D3B /* Item.swift in Sources */,
 			);
@@ -436,11 +442,13 @@
 				DEVELOPMENT_TEAM = 47E3RRLYKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GithubFollowers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Github Followers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -473,11 +481,13 @@
 				DEVELOPMENT_TEAM = 47E3RRLYKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GithubFollowers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Github Followers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
